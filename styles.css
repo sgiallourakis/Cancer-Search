@@ -1,0 +1,46 @@
+/*search button*/
+
+[type=text] {
+    border-radius: 5rem;
+    padding-left: calc(var(--form-element-spacing-horizontal) + 1.75rem)!important;
+    background-image: var(--icon-search);
+    background-position: center left 1.125rem;
+    background-repeat: no-repeat;
+    background-size: 1rem auto;
+  }
+
+  [type=submit] {
+      border-radius: 5rem;
+      padding-left: calc(var(--form-element-spacing-horizontal) + 1.75rem)!important;
+      background-position: center left 1.125rem;
+      background-repeat: no-repeat;
+      background-size: 1rem auto;
+}
+
+
+
+/*Hide Main_Menu for mobile phone*/
+@media screen and (max-width: 600px) {
+  div.main_menu {
+    display: none;
+  }
+
+
+
+.main_menu {
+  display: inline-block;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.main_menu .contrast {
+  width: 35px;
+  height: 3px;
+  background-color: #009490;
+  margin: 8px 0;
+  transition: all 0s ease;
+}
+
+
+input:not([type=checkbox]):not([type=radio]), select, textarea {
+    margin-top: var(--spacing);

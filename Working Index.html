@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Company example • Pico.css</title>
+    <meta name="description" content="A classic company or blog layout with a sidebar. Built with Pico CSS.">
+    <link rel="shortcut icon" href="https://picocss.com/favicon.ico">
+    <link rel="canonical" href="https://picocss.com/examples/company/">
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="pico.min.css">
+
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+      <nav class="container-fluid">
+        <ul class="main-navigation">
+          <li><a href="./" class="contrast" onclick="event.preventDefault()"><strong>Cancer Search</strong></a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="contrast" >Why Use CancerSearch.org</a></li>
+          <li><a href="#" class="contrast" >Who is Genomoncology</a></li>
+          <li><a href="#" class="contrast" >Login</a></li>
+        </ul>
+      </nav>
+    <!--  <header class="container">
+        <hgroup>
+          <h1>Cancer Search</h1>
+
+        </hgroup>
+
+      </header> -->
+    </div><!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+      <div class="grid">
+
+        <section>
+          <!-- condition search-->
+          <input type="search" id="search" name="search" placeholder="Condition/Disease">
+          <input type="text" id="location" name="location" placeholder="City">
+          <button type="submit" href="/search">Search</button>
+          <hgroup>
+            <h2>Ut sit amet sem ut velit</h2>
+            <h3>Quisque mi est</h3>
+          </hgroup>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis est vel velit bibendum ultrices. Sed aliquam tortor vel odio fermentum ullamcorper eu vitae neque. Sed non diam at tellus venenatis viverra. Vestibulum et leo laoreet arcu tempor eleifend venenatis ac leo. Pellentesque euismod justo sed nisl sollicitudin varius. Duis venenatis nisl sit amet ante rutrum posuere. Etiam nec ullamcorper leo, sed placerat mauris.</p>
+          <figure>
+            <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+            <figcaption>Image from <a href="https://unsplash.com">unsplash.com</a></figcaption>
+          </figure>
+          <h3>Nulla augue metus</h3>
+          <p>Pacilisis sed ante ut, posuere volutpat quam. Maecenas maximus blandit mi ac finibus. Proin quis lacinia tellus. Aliquam erat volutpat. Aliquam erat volutpat. Phasellus suscipit nisi augue, id accumsan tortor auctor ut. Duis odio arcu, egestas nec nulla vel, fermentum bibendum ex.</p>
+          <h3>Sed purus sapien, porta a cursus sed, maximus et metus.</h3>
+          <p>Phasellus molestie ante sed massa bibendum, eget tempus ex sollicitudin. Vestibulum libero nulla, porttitor nec faucibus et, scelerisque eget quam. Nullam finibus tempor dui, vel congue urna condimentum ac. Fusce ultricies mauris justo, nec vulputate mauris pulvinar eu. Sed tempus ligula lorem, at tincidunt risus mollis non. Quisque et turpis sit amet sapien gravida ullamcorper in eu velit. Curabitur luctus ornare finibus. Proin tempor nulla sagittis est fermentum dapibus. Vestibulum posuere mattis congue. Ut porttitor id sem euismod tristique. Quisque mi est, posuere nec lorem eu, vulputate vehicula diam. Nullam scelerisque, libero posuere efficitur bibendum, urna odio finibus lorem, sed volutpat dolor ligula in dolor. Suspendisse suscipit efficitur neque, ut porta tellus mollis vel. Nam consequat arcu ac tellus porta, nec egestas orci sodales.</p>
+        </section>
+
+
+
+      </div>
+    </main><!-- ./ Main -->
+
+    <!-- Subscribe -->
+    <section aria-label="Subscribe example">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Subscribe</h2>
+            <h3>Litora torquent per conubia nostra</h3>
+          </hgroup>
+            <form class="grid">
+              <input type="text" id="firstname" name="firstname" placeholder="First name" aria-label="First name" required>
+              <input type="email" id="email" name="email" placeholder="Email address" aria-label="Email address" required>
+              <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+          </form>
+        </article>
+      </div>
+    </section><!-- ./ Subscribe -->
+
+    <!-- Footer -->
+    <footer class="container">
+
+      <div class="table">
+        <ul>
+          <li class="contrast"><a>About Us</a></li>
+          <li class="contrast"><a>Register</a></li>
+          <li class="contrast"><a>Contact Us</a></li>
+          <li class="contrast"><a>Privacy</a></li>
+          <li class="contrast"><a>Terms</a></li>
+        </ul>
+      </div>
+      <small>Built with <a href="https://picocss.com">Pico</a> • <a href="https://github.com/picocss/examples/tree/master/company/">Source code</a></small>
+    </footer><!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="../js/minimal-theme-switcher.js"></script>
+
+  </body>
+
+</html>
