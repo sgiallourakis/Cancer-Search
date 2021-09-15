@@ -23,10 +23,9 @@ nav ul {
 /* Header */
 .hero {
   background-color: #394046;
-  background-image: url("https://source.unsplash.com/DNQ-M93tHmA/3000x1000");
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 10vh;
 }
 
 header {
