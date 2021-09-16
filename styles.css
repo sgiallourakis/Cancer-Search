@@ -43,7 +43,7 @@ div .search {
 input:not([type=checkbox]):not([type=radio]), select, textarea {
     margin-top: var(--spacing);
   }
-  
+
 /*Hide Main_Menu for mobile phone*/
 @media screen and (max-width: 600px) {
   div.main_menu {
@@ -69,3 +69,7 @@ input:not([type=checkbox]):not([type=radio]), select, textarea {
 
 input:not([type=checkbox]):not([type=radio]), select, textarea {
     margin-top: var(--spacing);
+}
+li {
+  list-style-type: none;
+}
