@@ -70,6 +70,13 @@ input:not([type=checkbox]):not([type=radio]), select, textarea {
 input:not([type=checkbox]):not([type=radio]), select, textarea {
     margin-top: var(--spacing);
 }
+/*get rid of bullet points for accordions*/
 li {
   list-style-type: none;
+}
+
+
+
+/*search page css*/
+
 }
